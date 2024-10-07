@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Station Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Train Station Tracker</h1>
+        
+        <h2>Add Station</h2>
+        <input type="text" id="stationName" placeholder="Station Name" required>
+        <input type="number" id="maxCapacity" placeholder="Max Capacity" required>
+        <button id="addStationButton">Add Station</button>
+
+        <h2>Manage Trains</h2>
+        <input type="text" id="stationForTrain" placeholder="Station Name" required>
+        <button id="addTrainButton">Add Train</button>
+        <button id="removeTrainButton">Remove Train</button>
+
+        <h2>Stations</h2>
+        <ul id="stationList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
